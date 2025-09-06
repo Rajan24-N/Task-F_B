@@ -1,10 +1,4 @@
-export const PO_TYPES = [
-  { label: 'Group PO', value: 'Group' },
-  { label: 'Individual PO', value: 'Individual' }
-];
+import { mockData } from "../data/mockData";
 
-export const CURRENCIES = [
-  { label: 'USD - Dollars ($)', value: 'USD' },
-  { label: 'EUR - Euro', value: 'EUR' },
-  { label: 'INR - Rupee', value: 'INR' }
-];
+export const currencies = mockData.currencies;
+export const clients = mockData.clients;

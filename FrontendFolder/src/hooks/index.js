@@ -1,1 +1,0 @@
-export { useInputHook } from './useInputHook';
